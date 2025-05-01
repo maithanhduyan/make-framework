@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Create Node.js Project",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/.tools/nodejs/createframework.py",
+        "${file}"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
